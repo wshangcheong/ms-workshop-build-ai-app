@@ -1,0 +1,13 @@
+# Local workshop config with real tenant/subscription/server values — never commit
+workshop/student.config.local.json
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data API Builder lab artifacts (students generate these in Module 6)
+sql-mcp-lab/
+
+# Scratch / scratch output files
+*.tmp

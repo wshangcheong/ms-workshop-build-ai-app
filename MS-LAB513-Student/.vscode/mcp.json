@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "sql-faq": {
+      "type": "stdio",
+      "command": "dab",
+      "args": ["start", "--mcp-stdio"],
+      "cwd": "${workspaceFolder}/sql-mcp-lab"
+    }
+  }
+}
